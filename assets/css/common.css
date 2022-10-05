@@ -1,0 +1,73 @@
+.blind{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+.wrapper{
+    min-width: 1152px;
+}
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+    min-width: 1152px;
+}
+body{
+    font-size: 14px;
+    line-height: 16px;
+    color: #222;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* is 영역*/
+.top-area h1,
+.search-area .btn-search,
+.group-flex1 .control-box a,
+.group-flex2 .btn-more,
+.new-issue .link-allissue,
+.slide-banner .control-box ul li a,
+footer .group-info .inquiry,
+.sc-slide .control-box a::after,
+.sc-popup .control-box a::after{
+    background-image: url(../images/icon_set.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+/* 서울 로고 */
+.header-top h1{
+    background-image: url(../images/logo_new_2019.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+/* 슬라이더 아이콘 */
+.group-flex1 .sc-slide .slider1 i::after,
+.group-flex1 .sc-slide .slider2 i::after{
+    background-image: url(../images/icon_set_main.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+/* 주요 서비스 아이콘 */
+.sc-service .service-list li a::before{
+    background-image: url(../images/icon_set_service.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+/* 서울시 SNS */
+.sc-sns .headline::after,
+.sc-sns ul li .link-sns{
+    background-image: url(../images/sns-list.png);
+    background-repeat: no-repeat;
+    background-size: 280px;
+}
+
+footer .footer-link .group-sns a{
+    background-image: url(../images/icon_set_sns.png);
+    background-repeat: no-repeat;
+    background-size: 175px;
+}
