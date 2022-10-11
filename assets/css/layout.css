@@ -191,25 +191,25 @@
 
 /* footer */
 footer{}
-footer .group-link{
+.group-link{
     position: relative;
 }
-footer .group-link ul{
+.group-link ul{
     padding: 15px 0;
     display: flex;
 }
-footer .group-link ul li{
+.group-link ul li{
     position: relative;
     padding: 0 10px;
     letter-spacing: -0.05em;
 }
-footer .group-link ul li:first-child{
+.group-link ul li:first-child{
     padding-left: 0;
 }
-footer .group-link ul li:first-child::before{
+.group-link ul li:first-child::before{
     display: none;
 }
-footer .group-link ul li::before{
+.group-link ul li::before{
     content: '';
     position: absolute;
     display: block;
@@ -219,15 +219,15 @@ footer .group-link ul li::before{
     margin-top: -6px;
     background: #dcdcdc;
 }
-footer .group-link ul li a{
+.group-link ul li a{
     font-size: 12px;
     color: #636363;
 }
-footer .group-link ul .policy a{
+.group-link ul .policy a{
     color: #000;
     font-weight: 700;
 }
-footer .group-link .sns-area{
+.group-link .sns-area{
     position: absolute;
     top: 50%;
     right: 0;
@@ -235,97 +235,97 @@ footer .group-link .sns-area{
     text-align: center;
     display: flex;
 }
-footer .group-link .sns-area a{
+.group-link .sns-area a{
     display: inline-block;
     width: 24px;
     height: 24px;
     margin-right: 12px;
 }
-footer .group-link .sns-area a:last-child{
+.group-link .sns-area a:last-child{
     margin-right: 0;
 }
-footer .group-link .sns-area a.fb{
+.group-link .sns-area .ic-facebook{
     background-position: -25px 0;
 }
-footer .group-link .sns-area a.fb:hover{
+.group-link .sns-area .ic-facebook:hover{
     background-position: -25px -25px;
 }
-footer .group-link .sns-area a.tw{
+.group-link .sns-area .ic-twitter{
     background-position: -50px 0;
 }
-footer .group-link .sns-area a.tw:hover{
+.group-link .sns-area .ic-twitter:hover{
     background-position: -50px -25px;
 }
-footer .group-link .sns-area a.ig{
+.group-link .sns-area .ic-insta{
     background-position: -75px 0;
 }
-footer .group-link .sns-area a.ig:hover{
+.group-link .sns-area .ic-insta:hover{
     background-position: -75px -25px;
 }
-footer .group-link .sns-area a.ks{
+.group-link .sns-area .ic-kakao{
     background-position: -100px 0;
 }
-footer .group-link .sns-area a.ks:hover{
+.group-link .sns-area .ic-kakao:hover{
     background-position: -100px -25px;
 }
-footer .group-link .sns-area a.yt{
+.group-link .sns-area .ic-youtube{
     background-position: -125px 0;
 }
-footer .group-link .sns-area a.yt:hover{
+.group-link .sns-area .ic-youtube:hover{
     background-position: -125px -25px;
 }
-footer .group-link .sns-area a.bg{
+.group-link .sns-area .ic-blog{
     background-position: -150px 0;
 }
-footer .group-link .sns-area a.bg:hover{
+.group-link .sns-area .ic-blog:hover{
     background-position: -150px -25px;
 }
-footer .group-info{
+.group-info{
     padding: 22px 0;
     border-top: 1px solid #ccc;
     display: flex;
     position: relative;
 }
-footer .group-info .inquiry{
+.group-info .inquiry{
     margin-right: 40px;
     width: 108px;
     height: 45px;
     background-position: -180px 0;
 }
 
-footer .group-info address p{
+.group-info address p{
     color: #636363;
     font-size: 12px;
     padding-bottom: 2px;
     margin-bottom: 0;
     letter-spacing: -0.05em;
 }
-footer .group-info .map{
+.group-info .map{
     color: #636363;
     font-size: 12px;
     padding-bottom: 2px;
     margin-bottom: 0;
     letter-spacing: -0.05em;
 }
-footer .group-info .copy{
+.group-info .copy{
     font-size: 11px;
     display: block;
 }
-footer .group-info .mark{
+.group-info .mark{
     position: absolute;
     top: 20px;
     right: 0;
     padding: 0;
     background: none;
 }
-footer .group-info .mark a{
+.group-info .mark a{
     display: inline-block;
     height: 100%;
 }
-footer .group-info .mark a+a{
+.group-info .mark a+a{
     margin-left: 10px;
 }
-footer .btn-top{
+.btn-top{
     position: fixed;
     bottom: 0;
     left: 50%;
@@ -336,7 +336,7 @@ footer .btn-top{
     opacity: 0;
     transition: 0.7s ease;
 }
-footer .btn-top.on{
+.btn-top.on{
     opacity: 1;
     bottom: 98px;
     left: 50%;

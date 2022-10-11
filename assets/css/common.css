@@ -6,6 +6,34 @@
     overflow: hidden;
     clip: rect(0 0 0 0);
 }
+
+/* skip-nav 설정 */
+#skip{
+    position: relative;
+    width: 100%;
+}
+.skip-nav{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    z-index: 999;
+    opacity: 0;
+    transition: all .3s;
+}
+.skip-nav:focus, .skip-nav:active{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    opacity: 1;
+}
+
 .wrapper{
     min-width: 1152px;
 }
@@ -66,7 +94,7 @@ footer .group-info .inquiry,
     background-size: 280px;
 }
 
-footer .footer-link .group-sns a{
+.group-link .sns-area a{
     background-image: url(../images/icon_set_sns.png);
     background-repeat: no-repeat;
     background-size: 175px;

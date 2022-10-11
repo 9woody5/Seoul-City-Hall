@@ -616,7 +616,6 @@ section .headline{
     width: 480px;
     margin: 0 0 0 20px;
 }
-.group-flex .news-list{}
 .group-flex .news-list li{
     padding: 8px 0;
     width: 100%;
@@ -715,9 +714,6 @@ section .headline{
     padding: 50px 0 50px 0;
     border-top: 2px solid #222;
 }
-.sc-popup .swiper{}
-.sc-popup .swiper-wrapper{}
-.sc-popup .swiper-slide{}
 .sc-popup .swiper-slide a{display: block;}
 .sc-popup .swiper-slide img{width: 100%;}
 
