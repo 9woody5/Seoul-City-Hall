@@ -57,7 +57,7 @@ body{
 .new-issue .link-allissue,
 .slide-banner .control-box ul li a,
 footer .group-info .inquiry,
-.sc-slide .control-box a::after,
+.sc-slide .control-box a,
 .sc-popup .control-box a::after{
     background-image: url(../images/icon_set.png);
     background-repeat: no-repeat;

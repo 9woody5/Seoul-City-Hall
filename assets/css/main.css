@@ -101,8 +101,7 @@
     font-size: 13px;
     color: #fff;
 }
-.sc-slide .slider .control-box a::after{
-    content: '';
+.sc-slide .slider .control-box a{
     position: absolute;
     display: block;
     width: 18px; height: 18px;
@@ -110,19 +109,19 @@
     transform: translateY(-50%);
     z-index: 10;
 }
-.sc-slide .control-box .btn-prev::after{
+.sc-slide .control-box .btn-prev{
     left: 49px;
     background-position: -241px -285px;
 }
-.sc-slide .control-box .btn-autoplay::after{
+.sc-slide .control-box .btn-autoplay{
     right: 21px;
     background-position: -285px -285px;
 }
-.sc-slide .control-box .btn-autoplay.active::after{
+.sc-slide .control-box .btn-autoplay.active{
     right: 21px;
     background-position: -269px -285px;
 }
-.sc-slide .control-box .btn-next::after{
+.sc-slide .control-box .btn-next{
     top: 0; right: 0;
     background-position: -256px -285px;
 }
@@ -426,59 +425,59 @@ section .headline{
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.sc-cate-info{
+.sc-cate{
     /* height: 145px; */
     padding-top: 40px;
 }
-.sc-cate-info h2{
+.sc-cate h2{
     padding: 0 0 20px 0;
     border-bottom: none;
     margin-bottom: 0;
 }
-.sc-cate-info .cate-list{
+.sc-cate .cate-list{
     padding: 0 27px;
     display: flex;
     justify-content: space-between;
 }
-.sc-cate-info .cate-item{
+.sc-cate .cate-item{
     width: 85px;
     height: 145px;
     text-align: center;
 }
-.sc-cate-info .cate-item a{
+.sc-cate .cate-item a{
     display: block;
 }
-.sc-cate-info .cate-item a::before{
+.sc-cate .cate-item a::before{
     content: '';
     display: block;
     width: 85px; height: 85px;
 }
-.sc-cate-info .link-house::before{
+.sc-cate .link-house::before{
     background: url(../images/icon_house.png);
 }
-.sc-cate-info .link-economy::before{
+.sc-cate .link-economy::before{
     background: url(../images/icon_economy.png);
 }
-.sc-cate-info .link-traffic::before{
+.sc-cate .link-traffic::before{
     background: url(../images/icon_traffic.png);
 }
-.sc-cate-info .link-env::before{
+.sc-cate .link-env::before{
     background: url(../images/icon_environment.png);
 }
-.sc-cate-info .link-welfare::before{
+.sc-cate .link-welfare::before{
     background: url(../images/icon_welfare.png);
 }
-.sc-cate-info .link-safety::before{
+.sc-cate .link-safety::before{
     background: url(../images/icon_safty.png);
 }
-.sc-cate-info .link-culture::before{
+.sc-cate .link-culture::before{
     background: url(../images/icon_culture.png);
 }
-.sc-cate-info .link-admin::before{
+.sc-cate .link-admin::before{
     background: url(../images/icon_work.png);
 }
 
-.sc-cate-info .cate-item span{
+.sc-cate .cate-item span{
     font-size: 16px;
     display: block;
     margin-top: 15px;
