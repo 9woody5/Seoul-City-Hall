@@ -1,23 +1,14 @@
 $(function(){//로드 후에 실행
 
+    //lang 선택 시 새창 열기
     $('#btnLang').click(function(){
         const url = $('#langList').val();
         window.open(url);
     })
 
+    
 
-    /**
-     * 접근성 & UX 개선 (키보드 사용할때만 포커스 나오게)
-     *
-     * @i = 인덱스 (매개변수에 대한 설명 필요) //function(i)
-     * 
-
-     * 
-     * @version 1.0.0
-     * @since 2022-01-16
-     * @author 본인이름 (Nico)
-     */
-
+    //메인 슬라이드 재생 정지
     $('.slider h3').click(function(e){//클릭된 후가 아니라 클릭되기 직전 시점
         e.preventDefault();
         const parent = $(this).parent();
@@ -83,7 +74,7 @@ $(function(){//로드 후에 실행
       
 
 
-      
+      //자동재생, 정지 버튼
       $('.slider1 .btn-autoplay').click(function(e){
         e.preventDefault();
 
@@ -114,24 +105,7 @@ $(function(){//로드 후에 실행
 
 
 
-
-
-
-
-
-      //영역 다를 때마다 주석 추가*****************
-      /**
-     * 접근성 & UX 개선 (키보드 사용할때만 포커스 나오게)
-     *
-     * @i = 인덱스 (매개변수에 대한 설명 필요) //function(i)
-     * 
-
-     * 
-     * @version 1.0.0
-     * @since 2022-01-16
-     * @author 본인이름 (Nico)
-     */
-
+      //하단 배너 슬라이드 영역
      const popupSlide = new Swiper(".sc-popup .swiper", {
         slidesPerView: 3,
         spaceBetween: 43,
@@ -167,17 +141,12 @@ $(function(){//로드 후에 실행
             $(this).addClass('active')
         }
 
-        
-    
-
       })
       
 
+      
 
-
-
-
-
+      //top버튼 스크립트
     $(window).scroll(function(){
 
         if ($(this).scrollTop() > 100) {
@@ -191,25 +160,13 @@ $(function(){//로드 후에 실행
 
     $('.btn-top').click(function(){
         window.scrollTo({top:0, behavior: 'smooth'});
-    });//btn-top버튼 스크립트
-
-
-
-    /**
-     * 접근성 & UX 개선 (키보드 사용할때만 포커스 나오게)
-     *
-     * @i = 인덱스 (매개변수에 대한 설명 필요) //function(i)
-     * 
-
-     * 
-     * @version 1.0.0
-     * @since 2022-01-16
-     * @author 본인이름 (Nico)
-     */
+    });
 
 
 
 
+
+    //btn-sitemap 스크립트
     $('.btn-related').click(function(e){
         e.preventDefault();
         
@@ -240,12 +197,4 @@ $(function(){//로드 후에 실행
     })
 
 
-
-
-
-
-
-
-
-
-})//site-map 스크립트
+})
